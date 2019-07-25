@@ -9,6 +9,6 @@ class Adh < Formula
   end
 
   def install
-    bin.install "adh"
+    bin.install "target/release/adh"
   end
 end
