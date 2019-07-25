@@ -4,11 +4,11 @@ class Adh < Formula
   homepage "https://github.com/jcaromiq/adh-rust"
 
   if OS.mac?
-      url "https://github.com/jcaromiq/adh-rust/releases/download/0.1.0/adh-0.1.0-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/jcaromiq/adh-rust/releases/download/#{version}/adh-#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "2eb546662c0075683d0b6f5292bbd356476228d110d18c316af8871e832a1bc3"
   end
 
   def install
-    bin.install "target/release/adh"
+    bin.install "release/adh"
   end
 end
