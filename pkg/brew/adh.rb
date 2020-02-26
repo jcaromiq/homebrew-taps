@@ -1,11 +1,11 @@
 class Adh < Formula
-  version '0.1.2'
+  version '0.1.3'
   desc "A port from https://github.com/ApiumhubOpenSource/adh in rust"
   homepage "https://github.com/jcaromiq/adh-rust"
 
   if OS.mac?
       url "https://github.com/jcaromiq/adh-rust/releases/download/#{version}/adh-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "bf9ddd5f3cc8cf4ab4674fbcb3c425f80f307d83361cb9f7442f71298079eca6"
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   end
 
   def install
