@@ -5,7 +5,7 @@ class Adh < Formula
 
   if OS.mac?
       url "https://github.com/jcaromiq/adh-rust/releases/download/#{version}/adh-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "5653a4e7a0d14f4c2b61735c410d4128d545882119f5c5bf2f3748326085679c"
+      sha256 "39600efd3e622907653680846bfc2870c2bf380715a6b2bbb1bf5496f19d9481"
   end
 
   def install
